@@ -34,7 +34,7 @@ export default function Navbar() {
 
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex items-center gap-8 text-white/70">
-            {["Home", "About", "Projects", "Team"].map((item) => (
+            {["Home", "About us ", "Categories", "Team"].map((item) => (
               <a
                 key={item}
                 className="
@@ -60,8 +60,9 @@ export default function Navbar() {
               bg-white text-black font-medium
               shadow hover:shadow-xl transition
             "
+            
             >
-              Contact Us
+              Book Serveman
             </button>
           </nav>
 
@@ -105,7 +106,7 @@ export default function Navbar() {
         `}
       >
         <div className="flex flex-col gap-8 text-lg text-white/90 mt-12">
-          {["Home", "About", "Projects", "Team"].map((item) => (
+          {["Home", "About us ", "Categories", "Team"].map((item) => (
             <a
               key={item}
               className="hover:text-white transition"
@@ -123,7 +124,7 @@ export default function Navbar() {
             hover:shadow-xl transition
           "
           >
-            Contact Us
+            Book Serveman
           </button>
         </div>
       </div>
